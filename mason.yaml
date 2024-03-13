@@ -7,13 +7,19 @@ bricks:
   # hello: 0.1.0+1
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
-  widget:
-    git:
-      url: https://github.com/dominicrafer/web_boilerplate_bricks.git
-      path: web-boilerplate-bricks
+  # page:
+  #   git:
+  #     path: ./web-boilerplate-bricks/page
+  #     url: https://github.com/dominicrafer/web_boilerplate_bricks.git
   amplify:
-    path: ./web-boilerplate-bricks/amplify
+    git:
+      path: ./web-boilerplate-bricks/amplify
+      url: https://github.com/dominicrafer/web_boilerplate_bricks.git
   page:
-    path: ./web-boilerplate-bricks/page
+    git:
+      path: ./web-boilerplate-bricks/page
+      url: https://github.com/dominicrafer/web_boilerplate_bricks.git
   module:
-    path: ./web-boilerplate-bricks/module
+    git:
+      path: ./web-boilerplate-bricks/module
+      url: https://github.com/dominicrafer/web_boilerplate_bricks.git
