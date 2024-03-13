@@ -1,4 +1,4 @@
-name: page
+name: web_amplify
 description: A new brick created with the Mason CLI.
 
 # The following defines the brick repository url.
@@ -26,8 +26,33 @@ environment:
 #  * a list of values (enums only)
 #  * an optional separator (list only)
 vars:
-  name:
+  cognito_region:
     type: string
-    description: Your page name
-    default: index
-    prompt: Enter the name of the page
+    description: AWS Cognito Region
+    default: ''
+    prompt: Cognito region
+  cognito_user_pool_id:
+    type: string
+    description: AWS Cognito User Pool ID
+    default: ''
+    prompt: Cognito User pool ID
+  cognito_user_pool_client_id:
+    type: string
+    description: AWS Cognito User Pool Client ID
+    default: ''
+    prompt: Cognito User pool client ID
+  cognito_identity_pool_id:
+    type: string
+    description: AWS Cognito Identity Pool ID
+    default: ''
+    prompt: Cognito Identity pool ID
+  s3_region:
+    type: string
+    description: AWS S3 Bucket Region
+    default: ''
+    prompt: S3 Bucket Region
+  s3_bucket_name:
+    type: string
+    description: AWS S3 Bucket Name
+    default: ''
+    prompt: S3 Bucket Name
