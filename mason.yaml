@@ -8,13 +8,12 @@ bricks:
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
   # widget:
-  #   git:
-  #     url: https://github.com/felangel/mason.git
-  #     path: bricks/widget
+  git:
+    url: https://github.com/dominicrafer/web_boilerplate_bricks.git
+    path: web-boilerplate-bricks
   amplify:
     path: ./web-boilerplate-bricks/amplify
   page:
     path: ./web-boilerplate-bricks/page
   module:
     path: ./web-boilerplate-bricks/module
-
